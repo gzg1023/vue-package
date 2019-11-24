@@ -45,9 +45,6 @@
       }
 
 
-
-
-
 响应拦截器函数
 
       let responseInterceptor = function (response) {
@@ -71,7 +68,7 @@
       instance.interceptors.request.use(requestInterceptor)
       instance.interceptors.response.use(responseInterceptor)
 
-在创建好基本请求后，我们在vuex中保存一个请求数组，用来取消网络请求
+在创建好基本请求后，我们在vuex中保存一个请求数组，一个用来取消网络请求
 
        state: {
           cancelToken: []
@@ -93,14 +90,6 @@
     Vue.prototype.$post = post
     Vue.prototype.$getJson = getJson
 
-在组件中使用
-
-    this.$post('getUserInfo2', {
-        a: 11,
-        b: 22
-      }).then(data => {
-        console.log(data)
-      })
 
 全部函数
 
@@ -131,7 +120,7 @@
       // 判断该请求是否为白名单请求
       if (!config.cannotCancel) {
         config.cancelToken = new axios.CancelToken(function (cancel) {
-          store.commit('PUSH_REQ_TOLEN', { cancelToken: cancel })
+          store.commit('PUSH_REQ_TOLEN', { cancelToken: cancel })  // 把网络请求的cancelToken添加到vuex中
         })
       }
       // 判断请求的类型校验参数，预防异常请客

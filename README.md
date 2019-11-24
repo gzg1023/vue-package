@@ -7,3 +7,16 @@
 2. 对post请求统一添加了请求，响应 ，拦截器
 3. 支持取消网络请求操作(支持白名单)
 4. 网络请求url统一管理
+
+使用方法demo
+
+    this.$http('urlObj',{
+      data1:'',
+      data2:''
+    }).then((data)=>{
+      
+    })
+
+     this.$getJson('./cofig.json').then((data)=>{
+      
+    })
