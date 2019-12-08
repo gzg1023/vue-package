@@ -7,6 +7,7 @@
 2. 对post请求统一添加了请求，响应 ，拦截器
 3. 支持取消网络请求操作(支持白名单)
 4. 网络请求url统一管理
+5. 添加axios的polyfil
 
 使用方法demo
 
@@ -15,6 +16,10 @@
       data2:''
     }).then((data)=>{
       
+    }).catch((data)=>{
+
+    }).finally((data)=>{ // pilyfill见code文件夹
+
     })
 
      this.$getJson('./cofig.json').then((data)=>{
