@@ -22,7 +22,7 @@
 
 <script>
 export default {
-  name: 'gm-date',
+  name: 'date-date',
   props: {
     type: {
       type: String,
