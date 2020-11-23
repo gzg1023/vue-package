@@ -1,13 +1,13 @@
 
 <p align="center">
   <a href="https://img.shields.io/badge/vue-npm-brightgreen.svg">
-    <img src="https://img.shields.io/badge/vue-npm-brightgreen.svg" alt="vue">
+    <img src="https://img.shields.io/badge/npm-vue.js-brightgreen.svg" alt="vue">
   </a>
   <a href="https://github.com/ElemeFE/element">
-    <img src="https://img.shields.io/badge/element-npm-blue.svg" alt="element-ui">
+    <img src="https://img.shields.io/badge/npm-elementUI-blue.svg" alt="element-ui">
   </a>
   <a href="https://github.com/axios/axios">
-    <img src="https://img.shields.io/badge/axios-npm-brightgreen.svg" alt="element-ui">
+    <img src="https://img.shields.io/badge/npm-axios-brightgreen.svg" alt="element-ui">
   </a>
 </p>
 
