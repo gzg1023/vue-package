@@ -7,7 +7,7 @@
 2. 对post请求统一添加了请求，响应 ，拦截器
 3. 支持取消网络请求操作(支持白名单)
 4. 网络请求url统一管理
-5. 添加axios的polyfil
+5. 添加axios的polyfil(最新版已经不需要)
 
 使用方法demo
 
@@ -25,3 +25,9 @@
      this.$getJson('./cofig.json').then((data)=>{
       
     })
+
+### element文件夹，封装的element组件
+
+* table-temp表格组件
+* date-temp 时间组件
+* upload-temp上传组件（基于七牛云）
