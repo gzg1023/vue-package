@@ -1,6 +1,20 @@
 # vue-package
 本项目用于，记录封装vue框架相关工具，如axios，elementUI等
 
+
+<p align="center">
+  <a href="https://img.shields.io/badge/vue-npm-brightgreen.svg">
+    <img src="https://img.shields.io/badge/vue-2.6.10-brightgreen.svg" alt="vue">
+  </a>
+  <a href="https://github.com/ElemeFE/element">
+    <img src="https://img.shields.io/badge/vue-element-blue.svg" alt="element-ui">
+  </a>
+  <a href="https://github.com/axios/axios">
+    <img src="https://img.shields.io/badge/axios-npm-brightgreen.svg" alt="element-ui">
+  </a>
+</p>
+
+
 ### axios文件夹，包括封装axios的源码(code)和具体封装步骤的blog
 
 1. 封装了$getJson，$post请求，用于读取本地json文件和发送post请求
