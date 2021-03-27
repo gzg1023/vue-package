@@ -46,3 +46,4 @@
 * table-temp表格组件
 * date-temp 时间组件
 * upload-temp上传组件（基于七牛云）
+* transfer-list 拖拽穿梭框组件（依赖sortablejs）
